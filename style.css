@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 20px;
+}
+
+.left-side {
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px;
+}
+
+.result {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+.result p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.circled {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+    box-shadow: 0px 0px 10px hsla(256, 72%, 46%, 1);
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.circled p {
+    padding: 0;
+    margin: 0;
+}
+
+.circled .main {
+    color: #fff;
+    font-weight: 800;
+    font-size: 46px;
+}
+
+.circled .sub {
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+}
+
+.circled-container {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.left-side .content .heading {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.left-side .content .section {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-size: 14px;
+}
+
+.right-side {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(30px, auto);
+    grid-gap: 15px;
+}
+
+.right-side .heading {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 18px;
+    display: grid;
+    align-content: center;
+}
+
+.right-side .reaction {
+    width: 80%;
+    padding: 0 20px;
+    background-color: hsl(0, 100%, 67%, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 15px;
+    align-content: center;
+}
+
+.rea {
+    color: hsl(0, 100%, 67%);
+    font-weight: 500;
+}
+
+.rem {
+    color: darkslategray;
+}
+
+.right-side .memory {
+    width: 80%;
+    padding: 0 20px;
+    background-color: hsl(39, 100%, 56%, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 15px;
+    align-content: center;
+}
+
+.mem {
+    color: hsl(39, 100%, 56%);
+    font-weight: 500;
+}
+
+.right-side .verbal {
+    width: 80%;
+    padding: 0 20px;
+    background-color: hsl(166, 100%, 37%, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 15px;
+    align-content: center;
+}
+
+.verb {
+    color: hsl(166, 100%, 37%);
+    font-weight: 500;
+}
+
+.right-side .visual {
+    width: 80%;
+    padding: 0 20px;
+    background-color: hsl(234, 85%, 45%, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 15px;
+    align-content: center;
+}
+
+.vis {
+    color: hsl(234, 85%, 45%);
+    font-weight: 500;
+}
+
+.continue {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 1fr;
+    width: 80%;
+    padding: 0 20px;
+}
+
+.continueButton {
+    background-color: hsl(224, 30%, 27%);
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+}
